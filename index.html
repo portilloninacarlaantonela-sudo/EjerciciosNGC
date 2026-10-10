@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MI CAJERO</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f1fc;
+            margin: 0;
+            padding: 30px;
+            color: #333;
+        }
+
+        h1 {
+            text-align: center;
+            color: #6c63b5;
+        }
+
+        .caja-modulo {
+            background-color: white;
+            max-width: 450px;
+            margin: 20px auto;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 3px 10px #d8d5e8;
+        }
+
+        p {
+            font-size: 16px;
+            color: #777;
+        }
+
+        h2 {
+            color: #6c63b5;
+            font-size: 20px;
+        }
+
+        li {
+            margin: 10px 0;
+        }
+
+        .btn-operacion {
+            background-color: #8982ea;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            margin: 5px 0;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        .btn-operacion:hover {
+            background-color: #6c63b5;
+        }
+
+        hr {
+            border: none;
+            border-top: 1px solid #eee;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1 id="titulo-principal">MI CAJERO</h1>
+
+    <div class="caja-modulo">
+
+        <p>¡Bienvenida al sistema!</p>
+
+        <h2>ESCOGE UNA OPCIÓN</h2>
+
+        <ol>
+            <li>Retiro</li>
+            <li>Depósito</li>
+        </ol>
+
+        <hr>
+
+        <h2>OPCIÓN 1: RETIRO</h2>
+
+        <p>Introduzca su tarjeta.</p>
+
+        <button class="btn-operacion">Digite su código</button>
+        <br>
+        <button class="btn-operacion">Monto a retirar</button>
+
+        <hr>
+
+        <h2>OPCIÓN 2: DEPÓSITO</h2>
+
+        <p>Introduzca la cuenta destinataria.</p>
+
+        <button class="btn-operacion">
+            Monto que desea depositar
+        </button>
+
+    </div>
+
+</body>
+</html>
